@@ -1,0 +1,9 @@
+fastapi==0.65.2
+uvicorn==0.14.0
+sqlalchemy==1.4.20
+pydantic==1.8.2
+redis==3.5.3
+aiohttp==3.7.4  # Useful for async HTTP requests, like fetching the OpenAPI spec
+databases==0.4.3
+asyncpg==0.22.0  # Required for using databases with PostgreSQL
+
